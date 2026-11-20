@@ -317,7 +317,7 @@ mgu.run({
         function drawProcessor(cv, t) {
             const c = snap.cpu, load = snap.load, tiles = [];
             tiles.push(['Processor', c ? pct(c.busy) + ' %' : '--', snap.ncpu ? snap.ncpu + ' cores' : '', t.cold]);
-            if (load) tiles.push(['Load', load.one.toFixed(2), '15 min ' + load.fifteen.toFixed(2), t.text]);
+            if (load) tiles.push(['Load', load.one.toFixed(2), '15-minute average ' + load.fifteen.toFixed(2), t.text]);
             // (the head unit may keep its sensors from apps: then no tile, rather than a blank one)
             if (snap.temp) tiles.push(['Temperature', Math.round(snap.temp.c) + ' °C', snap.temp.board ? 'board' : '',snap.temp.c >= 90 ? t.crit : snap.temp.c >= 80 ? t.warn : t.text]);
             if (snap.freq) tiles.push(['Clock', (snap.freq.hz / 1e9).toFixed(2) + ' GHz', snap.freq.max ? 'max ' + (snap.freq.max / 1e9).toFixed(1) + ' GHz' : '', t.text]);

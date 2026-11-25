@@ -4,7 +4,7 @@ An activity monitor for BMW iDrive 7 head units (MGU): what uses the head unit's
 
 | App | Version | Internet | Reads from the car |
 | :--- | :---: | :---: | :--- |
-| [System Monitor](#system-monitor) | 1.0.8 | No | Nothing, only the head unit's own processes |
+| [System Monitor](#system-monitor) | 1.0.9 | No | Nothing, only the head unit's own processes |
 
 ## Install
 

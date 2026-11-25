@@ -1170,3 +1170,107 @@ up	升挡
 down	降挡
 skip	跳挡降挡
 m ago	分钟前
+
+# System Monitor
+% of RAM	内存占比
+15 min	15分钟
+APPS MEMORY	应用内存
+Apps and programs	应用和程序
+Available	可用内存
+Back	返回
+Clock	频率
+Collecting...	正在采集…
+Command	命令
+Core	核心
+Cores	核心数
+FREE MEMORY	可用内存
+Files, shared	共享文件
+GRAPHICS CLOCK	图形频率
+Group processes by app	按应用合并进程
+LAST ALERT	最近提醒
+Last	最近
+Last 3 min	最近3分钟
+Last 3 minutes	最近3分钟
+Load	负载
+MGU STORE	MGU 商店
+MIN	分钟
+Measuring...	正在测量…
+Memory	内存
+Memory in use	已用内存
+Memory: each one's own, without shared files	内存：各进程独占，不含共享文件
+Name	名称
+No processes could be read.	无法读取进程信息。
+Nothing is busy right now.	当前没有高负载进程。
+OWN MEMORY, LAST	独占内存，最近
+Other programs	其他程序
+Overview	总览
+Own memory	独占内存
+PID	PID
+Pop-up when the iDrive is short of resources	车机资源不足时弹窗提醒
+Process	进程
+Processes	进程
+Processor	处理器
+Programs	程序
+Reading memory...	正在读取内存…
+SWAP USED	已用交换空间
+Share of RAM	内存占比
+System	系统
+System Monitor	系统监控
+Test	测试
+Test pop-up	测试提醒
+The figures above are the whole head unit's.	上方数据代表整台车机。
+The memory and processor figures on Overview are the whole head unit's.	总览中的内存和处理器数据代表整台车机。
+This	此
+This head unit doesn't say how busy each core is.	本车机未提供各核心的占用率。
+This head unit lets an app see only its own processes.	本车机仅允许应用查看自身进程。
+Threads	线程
+Update every	刷新间隔
+Using the most memory	内存占用最高
+Using the most processor	处理器占用最高
+Waiting on storage	存储等待
+What it is	类型说明
+With shared files	含共享文件
+a program of the MGU Store	MGU 商店的程序
+a program of the head unit	车机系统程序
+an iDrive app	车机应用
+an iDrive app (BMW's own, or installed without the MGU Store): its name can't be read from another app	车机应用（宝马原厂或非商店安装）：其他应用无权读取其名称
+an iDrive app installed by the MGU Store	通过 MGU 商店安装的车机应用
+and MainApp	含应用管理器
+apps	应用
+apps at their memory cap	应用内存达到上限
+board	主板
+cores	核心
+ended (zombie)	已结束（僵尸进程）
+first sample	首次采样
+free	可用
+free memory	可用内存
+has ended.	已结束。
+iDrive Monitor	车机资源监控
+iDrive apps	车机应用
+iDrive short of resources	车机资源不足
+idle	空闲
+minute	分钟
+minutes	分钟
+no Linux /proc here: showing sample data	未发现 Linux /proc，正在显示演示数据
+no swap	未使用交换空间
+none found	未发现
+none since start	启动后暂无提醒
+not readable	不可读取
+not reported	未提供
+own work, the kernel	系统内核工作
+parent	父进程
+process	进程
+processes	进程
+program	程序
+running	运行中
+running for	已运行
+sample data	演示数据
+shared memory	共享内存
+sleeping	休眠中
+stopped	已停止
+swap	交换空间
+swapped out	已换出
+the app manager, which runs the iDrive apps	负责运行车机应用的应用管理器
+this app	本应用
+user	用户
+waiting on a device	等待设备
